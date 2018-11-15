@@ -1,0 +1,36 @@
+#info {
+   background: #333;
+   color: #fff;
+   text-align: center;
+}
+
+#info .contenedor {
+  display:  flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-rica {
+  margin: 20px;
+}
+
+.info-rica img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+}
+
+@media (min-width:480px) {
+  .info-rica {
+     width:40%;
+  }
+
+}
+
+@media (min-width:1024px) {
+  .info-rica {
+     width:auto;
+  }
+
+}
